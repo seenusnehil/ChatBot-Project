@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hey there"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi, I'm good"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye, See ya"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Yes, thanks for visiting"
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": [
+        "What can you do for us?",
+        "What all things can you search for us?",
+        "What can you search"
+      ],
+      "responses": [
+        "I can search most of your queries on Google or try it answering it myself",
+        "I'm your Assistant, I can search whatever you want"
+      ]
+    },
+    {
+      "tag": "appreciation",
+      "patterns": [
+        "haha nice",
+        "That was funny",
+        "That's Awesome",
+        "You're Awesome",
+        "Ohh, amazing",
+        "That was great"
+      ],
+      "responses": [
+        "Great, glad you liked it",
+        "That's great, I'm laughing on that as well"
+      ]
+    },
+    {
+      "tag": "complements",
+      "patterns": [
+        "Thanks",
+        "Great Work",
+        "Great",
+        "Nice",
+        "Awesome",
+        "Amazing",
+        "Awesome"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Your Welcome"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What do you call a sleeping Bull??   A Bulldozer"
+      ]
+    }
+  ]
+}
